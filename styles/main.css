@@ -172,7 +172,8 @@ main .main-center-container {
   background-color: #fefefe;
   position: relative;
   box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
-  bottom: 70px;
+  top: -60px;
+  bottom: 60px;
   z-index: 1;
 }
 main .main-center-container .stand-section {
@@ -336,15 +337,17 @@ main .main-center-container .get-in-touch-section {
   align-items: center;
   margin: 0;
   justify-content: flex-start;
+  background-attachment: scroll;
+  height: 80vh;
 }
 main .main-center-container .get-in-touch-section .get-in-touch-left {
-  margin: 0 15px;
+  margin: 0 70px;
 }
 main .main-center-container .get-in-touch-section .get-in-touch-left h2 {
   font-family: "Roboto Slab", serif;
   font-weight: 900;
   font-size: 37px;
-  padding: 20px 10px;
+  padding: 30px 10px;
   color: #fefefe;
 }
 main .main-center-container .get-in-touch-section .get-in-touch-left .contact {
@@ -366,15 +369,105 @@ main .main-center-container .get-in-touch-section .get-in-touch-left .contact p 
   color: #fefefe;
 }
 
+.related-posts-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.related-posts-section h2 {
+  font-family: "Roboto Slab", serif;
+  font-weight: 900;
+  font-size: 37px;
+  color: #3c4858;
+}
+.related-posts-section .related-posts-container {
+  display: flex;
+  align-items: flex-start;
+  margin: 0 50px;
+  padding: 60px 50px 150px 50px;
+}
+.related-posts-section .related-posts-container .post-container {
+  border-radius: 3%;
+  background-color: #fefefe;
+  margin: 15px;
+  padding: 15px 30px;
+  width: 30%;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+.related-posts-section .related-posts-container .post-container .blog-article {
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+}
+.related-posts-section .related-posts-container .post-container .blog-article h6 a {
+  font-size: 12px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.related-posts-section .related-posts-container .post-container .blog-article h6 .purple-h6 {
+  color: #89229b;
+}
+.related-posts-section .related-posts-container .post-container .blog-article h6 .blue-h6 {
+  color: #00bcd4;
+}
+.related-posts-section .related-posts-container .post-container .blog-article h6 .red-h6 {
+  color: #f44336;
+}
+.related-posts-section .related-posts-container .post-container .blog-article h4 {
+  padding: 15px 0;
+}
+.related-posts-section .related-posts-container .post-container .blog-article h4 a {
+  font-family: "Roboto Slab", serif;
+  font-weight: 900;
+  font-size: 37px;
+  font-size: 18px;
+  padding-bottom: 15px;
+  color: #3c4858;
+  text-decoration: none;
+}
+.related-posts-section .related-posts-container .post-container .blog-article p {
+  color: #999;
+  font-size: 14px;
+  line-height: 1.5em;
+}
+.related-posts-section .related-posts-container .post-container .blog-article p a {
+  text-decoration: none;
+  color: #23527c;
+}
+
 footer {
   background-color: #323437;
   color: #999;
-  padding: 15px 30px 15px 18px;
-  text-align: center;
+  height: 75px;
+  padding: 15px 60px 15px 60px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   position: relative;
   bottom: 0;
   left: 0;
+  right: 0;
   z-index: 2;
+  margin-top: -60px;
+}
+footer .footer-left {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px;
+}
+footer .footer-left a {
+  font-size: 15px;
+  padding: 15px;
+  color: #fefefe;
+  text-decoration: none;
+}
+footer .footer-right {
+  padding: 0 25px;
+  color: #fefefe;
+}
+footer .footer-right a {
+  font-size: 15px;
+  color: inherit;
+  text-decoration: none;
 }/*# sourceMappingURL=main.css.map */
