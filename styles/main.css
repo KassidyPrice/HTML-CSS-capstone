@@ -76,10 +76,10 @@
   border-radius: 3px;
   padding: 15px 25px;
   margin-bottom: 80px;
+  transition: all ease-in-out 0.3s;
 }
 .header-main .heading .see-more-btn:hover {
   box-shadow: 0 10px 27px 0 rgba(117, 46, 76, 0.5);
-  transition: all ease-in-out 0.3s;
 }
 
 .header-color {
@@ -458,6 +458,70 @@ main .main-center-container .blog-center-container .login-prompt .fa-face-smile-
   background-color: #9a9898;
   color: rgb(200, 200, 200);
   border-radius: 50%;
+}
+main .main-center-container .blog-list-container {
+  padding: 100px 175px;
+}
+main .main-center-container .blog-list-container .article {
+  color: #3c4858;
+  margin-top: 20px;
+  margin-bottom: 70px;
+}
+main .main-center-container .blog-list-container .article h6 a {
+  font-size: 12px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+main .main-center-container .blog-list-container .article h6 .purple-h6 {
+  color: #89229b;
+}
+main .main-center-container .blog-list-container .article h6 .blue-h6 {
+  color: #00bcd4;
+}
+main .main-center-container .blog-list-container .article h6 .red-h6 {
+  color: #f44336;
+}
+main .main-center-container .blog-list-container .article h6 .green-h6 {
+  color: #4caf50;
+}
+main .main-center-container .blog-list-container .article h6 .pink-h6 {
+  color: #e91e63;
+}
+main .main-center-container .blog-list-container .article h6 .yellow-h6 {
+  color: #ff9800;
+}
+main .main-center-container .blog-list-container .article h4 {
+  padding: 15px 0;
+}
+main .main-center-container .blog-list-container .article h4 a {
+  font-family: "Roboto Slab", serif;
+  font-weight: 900;
+  font-size: 37px;
+  font-size: 25px;
+  padding-bottom: 15px;
+  color: #3c4858;
+  text-decoration: none;
+  transition: all ease-in-out 0.3s;
+}
+main .main-center-container .blog-list-container .article h4 a:hover {
+  color: #999;
+}
+main .main-center-container .blog-list-container .article p {
+  color: #999;
+  font-size: 14px;
+  line-height: 1.5em;
+  padding: 5px 0;
+}
+main .main-center-container .blog-list-container .article p a {
+  text-decoration: none;
+  color: #23527c;
+  transition: all ease-in-out 0.3s;
+}
+main .main-center-container .blog-list-container .article p a b:hover {
+  color: #999;
+}
+main .main-center-container .blog-list-container .article p a:hover {
+  color: #e91e63;
 }
 
 .related-posts-section {
